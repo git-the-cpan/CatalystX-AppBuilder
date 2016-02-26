@@ -6,9 +6,9 @@ build_requires:
   ExtUtils::MakeMaker: '6.36'
   Test::More: '0'
 configure_requires:
-  Module::Build: '0.38'
+  Module::Build::Tiny: '0.035'
 dynamic_config: 0
-generated_by: 'Minilla/v2.2.0, CPAN::Meta::Converter version 2.142690'
+generated_by: 'Minilla/v3.0.1, CPAN::Meta::Converter version 2.150001'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,17 +27,17 @@ no_index:
 provides:
   CatalystX::AppBuilder:
     file: lib/CatalystX/AppBuilder.pm
-    version: '0.00010'
+    version: '0.00011'
 requires:
   Catalyst: '5.80024'
   Moose: '0'
   namespace::clean: '0'
 resources:
-  bugtracker: https://github.com/lestrrat/CatalystX-AppBuilder/issues
-  homepage: https://github.com/lestrrat/CatalystX-AppBuilder
-  repository: git://github.com/lestrrat/CatalystX-AppBuilder.git
-version: '0.00010'
+  bugtracker: https://github.com/colinnewell/CatalystX-AppBuilder/issues
+  homepage: https://github.com/colinnewell/CatalystX-AppBuilder
+  repository: git://github.com/colinnewell/CatalystX-AppBuilder.git
+version: '0.00011'
 x_contributors:
-  - 'Colin Newell <colin@opusvl.com>'
   - 'Colin Newell <colin.newell@gmail.com>'
-  - 'Daisuke Maki <lestrrat+github@gmail.com>'
+  - 'Colin Newell <colin@opusvl.com>'
+  - 'lestrrat <lestrrat+github@gmail.com>'
